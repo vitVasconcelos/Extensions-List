@@ -192,6 +192,10 @@ body{
   margin-bottom: 40px;
 
 }
+.listas div button:hover{
+  background-color: var(--Red1);
+  color: var(--cinza3);
+}
 .listas label{
   margin-top: 60px;
   margin-right: 15px;
