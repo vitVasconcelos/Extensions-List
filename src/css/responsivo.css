@@ -1,0 +1,36 @@
+@media (max-width: 375px) {
+    body {
+      justify-content: center;
+      height: auto;
+      display: flex;
+      padding: 10px;
+    }
+    header{
+        width: 95%;
+    }
+    .titulo{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+
+    }
+    .titulo h1{
+        font-size: 30px;
+    }
+    .titulo button{
+        margin-top: 20px;
+        padding: 15px 20px;
+        font-size: 20px;
+        border-radius: 40px;
+    }
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .listas ul{
+        display: flex;
+        flex-direction: column;
+    }
+  }
+  

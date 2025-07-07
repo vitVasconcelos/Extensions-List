@@ -9,7 +9,8 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
-    <link class= "css-pagina" rel="stylesheet" href="/src/css/estilos.css"> 
+    <link class="css-pagina" rel="stylesheet" href="/src/css/estilos.css">
+    <link rel="stylesheet" href="/src/css/responsivo.css">
     <title>Lista extensoes</title>
 </head>
 
@@ -25,9 +26,9 @@
             <div class="titulo">
                 <h1>Extensions List</h1>
                 <div class="botoes">
-                    <button class="all">All</button>
-                    <button>Active</button>
-                    <button>Inactive</button>
+                    <button class="all" onclick="mostrarTodos()">All</button>
+                    <button onclick="mostrarAtivos()">Active</button>
+                    <button onclick="mostrarInativos()">Inactive</button>
                 </div>
             </div>
             <div class="listas">
@@ -39,7 +40,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -52,7 +53,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -64,7 +65,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -76,7 +77,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -88,7 +89,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -100,7 +101,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -112,7 +113,7 @@
                         <div class="diferente">
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -124,7 +125,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -136,7 +137,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -148,7 +149,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -157,11 +158,11 @@
                         <img src="/src/imagens/logo-dom-snapshot.svg" alt="logo dom snapshot">
                         <h3>DOM Snapshot</h3>
                         <p> Capture and export DOM structures quickly.</p>
-                        
+
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>
@@ -173,7 +174,7 @@
                         <div>
                             <button>Remove</button>
                             <label class="switch">
-                                <input type="checkbox">
+                                <input type="checkbox" class="toggle">
                                 <span class="slider"></span>
                             </label>
                         </div>

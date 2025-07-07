@@ -207,3 +207,19 @@
      margin-top: 60px;
      margin-right: 15px;
    }
+   .listas.vazio::before {
+    content: "Nenhuma extensão encontrada.";
+    display: block;
+    text-align: center;
+    font-size: 1.2rem;
+    color: var(--cinza1, #666); 
+    margin-top: 2rem;
+  }
+  
+  .listas.vazio ul {
+    display: none;
+  }
+  .listas {
+    min-height: 200px; 
+    position: relative;
+  }
