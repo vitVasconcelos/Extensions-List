@@ -1,6 +1,8 @@
 Um projeto web simples e funcional que exibe uma lista de extensões fictícias de navegador com funcionalidades para filtrar por status (ativas, inativas ou todas), alternar o tema da interface (claro/escuro) e adaptar-se a telas pequenas (modo responsivo).
 Este site foi desenvolvido para um desafio do Frontend Mentor https://www.frontendmentor.io/challenges/browser-extension-manager-ui-yNZnOfsMAp
 
+Visite o site : https://vitvasconcelos.github.io/Extensions-List/
+
 📸 Preview
 ![image](https://github.com/user-attachments/assets/3ebf965f-49f0-448a-8946-feba472ce526)
 ![image](https://github.com/user-attachments/assets/a4dc4db8-4d01-40e5-88a6-69083a2dec70)
