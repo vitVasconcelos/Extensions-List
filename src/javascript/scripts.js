@@ -4,12 +4,12 @@ let ligado = false;
 
 function mudarTema() {
   if (!ligado) {
-    imagemBotao.src = "/src/imagens/icon-moon.svg";
-    estilo.href = "/src/css/estilos-claro.css";
+    imagemBotao.src = "./src/imagens/icon-moon.svg";
+    estilo.href = "./src/css/estilos-claro.css";
     ligado = true;
   } else {
-    imagemBotao.src = "/src/imagens/icon-sun.svg";
-    estilo.href = "/src/css/estilos.css";
+    imagemBotao.src = "./src/imagens/icon-sun.svg";
+    estilo.href = "./src/css/estilos.css";
     ligado = false;
   }
 }
